@@ -1083,7 +1083,19 @@ a.logo span {
 
 
 /*notification*/
+a.notification {
 
+    font-weight: 300;
+
+    color: #fed189;
+
+    float: right;
+
+    margin-top: 15px;
+
+    text-transform: uppercase;
+
+}
 
 
 #top_menu .nav > li, ul.top-menu > li {
@@ -1247,6 +1259,20 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     };
 
 }
+
+/*user*/
+a.user {
+
+    font-weight: 300;
+
+    float: right;
+
+    margin-top: 15px;
+
+    text-transform: uppercase;
+
+}
+
 
 /* bootstrape editor*/
 
@@ -9871,4 +9897,63 @@ span.customSelect.changed {
     background:url(../img/customSelect-arrow.gif) no-repeat center right;
 
 }
+
+.button {
+    background-color: #ffab40;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#buttons{
+    position: absolute;
+  bottom: 25px;
+  right: 10px;
+  margin: 10px;
+}
+
+
+a.button:hover{
+    color: black;
+    background: white;
+}
+
+
+.final-button {
+    background-color: #ffab40;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a.final-button:hover {
+    color:white;
+    background: black;
+}
+
+#final-buttons{
+    position: absolute;
+  right: 10px;
+  margin: 10px;
+}
+
+
+
+
+
+
 
