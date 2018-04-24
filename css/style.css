@@ -2474,6 +2474,10 @@ div[data-role="editor-toolbar"] {
 
 }
 
+.panel-body .panel-heading{
+    font-weight: bold;
+}
+
 .panel.panel-info .panel-heading,
 
 .panel.panel-info .panel-footer {
